@@ -26,3 +26,4 @@ jobs:
       - run: npm i
       - run: npm install @rollup/rollup-linux-x64-gnu --save-optional
       - run: npm run build --if-present
+      - run: pm2 reload 1
